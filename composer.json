@@ -1,0 +1,33 @@
+{
+  "name": "zeus/modules",
+  "description": "Zeus Modules",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joan Morell",
+      "email": "j.morell@mail.zeus.vision"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "orchestra/testbench": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zeus\\Modules\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zeus\\Modules\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zeus\\Modules\\ZeusModulesServiceProvider"
+      ]
+    }
+  }
+}
