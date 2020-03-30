@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeus\Modules\Facades;
+namespace ZeusVision\Modules\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

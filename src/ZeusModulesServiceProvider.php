@@ -1,9 +1,9 @@
 <?php
 
-namespace Zeus\Modules;
+namespace ZeusVision\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use Zeus\Modules\Console\CreateModule;
+use ZeusVision\Modules\Console\CreateModule;
 
 class ZeusModulesServiceProvider extends ServiceProvider
 {

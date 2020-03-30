@@ -1,5 +1,5 @@
 {
-  "name": "zeus/modules",
+  "name": "zeusvision/modules",
   "description": "Zeus Modules",
   "type": "library",
   "license": "MIT",
@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Zeus\\Modules\\ZeusModulesServiceProvider"
+        "ZeusVision\\Modules\\ZeusModulesServiceProvider"
       ]
     }
   }

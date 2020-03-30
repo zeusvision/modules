@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeus\Modules\Console;
+namespace ZeusVision\Modules\Console;
 
 use Illuminate\Console\Command;
 
