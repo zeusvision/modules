@@ -15,12 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zeus\\Modules\\": "src"
+      "ZeusVision\\Modules\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Zeus\\Modules\\Tests\\": "tests"
+      "ZeusVision\\Modules\\Tests\\": "tests"
     }
   },
   "extra": {
